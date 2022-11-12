@@ -1,4 +1,4 @@
-# Ioun Library
+# TutAI
 
 **🚧 This project is currently under construction.**
 
