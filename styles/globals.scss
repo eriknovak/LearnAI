@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    // define the colors
+    --color-black-dark: 3, 19, 33; // 4, 28, 50;
+    --color-black-base: 7, 37, 62;
+    --color-white-base: 232, 244, 255; // 250, 237, 240;
+
+    // scrollbar
+    --width-scrollbar-sm: 6px;
+    --width-scrollbar-md: 12px;
+    --color-scrollbar-track: var(--color-black-base);
+    --color-scrollbar-thumb: var(--color-black-dark);
+
+    // background
+    --color-background-base: var(--color-white-base);
+
+    // font familites
+    --font-family-header: "Hubot Sans";
+    --font-family-body: "Mona Sans";
+  }
+
+  @font-face {
+    font-family: "Mona Sans";
+    src: url("../public/fonts/mona-sans/Mona-Sans.woff") format("woff"),
+      url("../public/fonts/mona-sans/Mona-Sans.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "Hubot Sans";
+    src: url("../public/fonts/hubot-sans/Hubot-Sans.woff") format("woff"),
+      url("../public/fonts/hubot-sans/Hubot-Sans.woff2") format("woff2");
+  }
+}

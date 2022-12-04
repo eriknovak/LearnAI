@@ -1,0 +1,26 @@
+body {
+    @apply bg-base;
+    @apply font-body text-base text-md;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-header;
+  }
+
+  *::-webkit-scrollbar {
+    width: var(--width-scrollbar-sm);
+    height: var(--width-scrollbar-md);
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-scrollbar-track;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply bg-scrollbar-thumb;
+  }

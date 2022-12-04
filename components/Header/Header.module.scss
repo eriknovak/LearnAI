@@ -1,0 +1,19 @@
+.container {
+    @apply fixed px-4 py-4 w-full;
+    @apply bg-base border-b-2;
+    @apply text-xl;
+  }
+
+  .content {
+    @apply flex flex-row justify-between gap-8;
+    @apply m-auto;
+  }
+
+  .link {
+    @apply inline-block;
+    @apply text-base hover:text-link;
+    @apply transition-colors;
+    &.link--active {
+      @apply text-link;
+    }
+  }

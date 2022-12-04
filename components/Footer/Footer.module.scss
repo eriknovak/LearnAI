@@ -1,0 +1,9 @@
+.container {
+    @apply block px-4 pt-20 pb-8 w-full;
+    @apply text-2xl;
+}
+
+.content {
+    @apply flex flex-row justify-center gap-4;
+    @apply m-auto;
+}
