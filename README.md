@@ -1,5 +1,8 @@
 # LearnAI
 
+[![Public Pages](https://github.com/eriknovak/LearnAI/actions/workflows/nextjs.yml/badge.svg)](https://github.com/eriknovak/LearnAI/actions/workflows/nextjs.yml)
+
+
 **🚧 This project is currently under construction.**
 
 The project contains the code for the NLP and Time Series Analysis Tutorials.
