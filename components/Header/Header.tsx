@@ -1,4 +1,4 @@
-import Link from "components/Link";
+import Link from "../Link";
 import { useRouter } from "next/router";
 
 import cn from "classnames";
